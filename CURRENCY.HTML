@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CURRENCY.CSS">
+</head>
+<body>
+    <section class="converter-wrapper">
+        <h2>CURRENCY CONVERTER</h2>
+        <form action="converts currency" id="form">
+<label for="amount" id="amount">Amount</label>
+<input type="text" placeholder="e.g 45" id="amount-input" >
+<label for="from">FROM</label>
+<select name="from-currency" id="from-currency">
+    <!--<option value="AUD" selected>USD</option>
+   <option value="CAD">CAD</option>
+    <option value="EUR">EUR</option>
+    <option value="GEP">GEP</option>
+    <option value="JPY">JPY</option>
+    <option value="USD">USD</option>-->
+</select>
+<label for="to">TO</label>
+<select name="to-currency" id="to-currency">
+    <!--<option value="AUD" selected>UGX</option>
+    <option value="CAD">CAD</option>
+    <option value="EUR">EUR</option>
+    <option value="GEP" selected>GEP</option>
+    <option value="JPY">JPY</option>
+    <option value="USD">ADA</option>-->
+</select>
+<p id="convert">RESULT: </p>
+
+<button  class="submit-button" type="submit">Submit <div class="loader"></div> </button>
+        </form>
+    </section>
+    <script src="CURRENCY.JS"></script>
+</body>
+</html>
